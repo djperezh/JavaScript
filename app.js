@@ -69,15 +69,9 @@ console.log(student.fullName + ": " + student.occupation);
 function Animal(name) {
     this.name = name;
 }
+// method
 Animal.prototype.speak = function() {
     console.log(this.name + ' speaks');
 }
 let animal = new Animal("dog");
 animal.speak();
-
-/*
-TODO:
-- 
-- Listeners/Subscribers
-- Mixins
-*/
